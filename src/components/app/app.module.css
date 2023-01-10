@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.mainStyle{
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 40px 1fr;
+  grid-template-rows: calc(100vh - 100px);
+  /* border: 1px solid red; */
+  /* position: relative; */
+}
